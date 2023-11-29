@@ -71,6 +71,7 @@ namespace controleContas
                 SaldoProp -= valorSaqueComTaxa;
                 Console.WriteLine("Saque de {0:C2} realizado com sucesso.", valor);
                 Console.WriteLine("Taxa cobrada: {0:C2}. Novo saldo: {1:C2}", valorTaxa, SaldoProp);
+                Console.WriteLine();
                 return SaldoProp;                
             }
             else
